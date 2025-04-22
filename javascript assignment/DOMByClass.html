@@ -1,0 +1,40 @@
+<html>
+
+<head> 
+   <h2> The first Page </h2>
+</head>
+
+<body>
+
+   <div class = "nclass"> All Topics   </div>
+   
+   <div class = "myclass"> Topic First   </div>
+   <div class = "myclass"> Topic Second   </div>
+   
+   <br/>
+   
+   <span id = "myspan"> </span>
+   
+   <input type = 'button' value = 'Click' onclick = 'grabitems()'/>
+   
+
+<script>
+   
+     const grabitems = () => {
+		const mycollection = document.getElementByClassName("myclass");
+		mycollection[0].innerHTML = "Canada";
+		
+		console.log(mycollection[0].innerHTML);
+		
+	    
+	 }
+  
+  
+</script>
+
+
+</body>
+
+
+
+</html>

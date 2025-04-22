@@ -1,0 +1,32 @@
+<html>
+
+<head> 
+   <h2> Objects </h2>
+</head>
+
+<body>
+
+<span id = "myh"> </span>
+
+
+<script>
+    
+	const car = {
+	   brand:'Toyota',
+	   Model: 'Camry',
+	   Year: '2017',
+	   speed: function(a){
+			return this.Model + " has speed " + a * 20;
+	   }
+	}
+
+document.getElementById('myh').innerHTML =  car.brand + " " + car.speed(5);
+  
+</script>
+
+
+</body>
+
+
+
+</html>
